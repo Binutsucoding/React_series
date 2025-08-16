@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+
+@keyframes swing {
+  0% {
+    transform: rotate(-6deg) translateY(0);
+  }
+
+  50% {
+    transform: rotate(6deg) translateY(2px);
+  }
+
+  100% {
+    transform: rotate(-6deg) translateY(0);
+  }
+}
